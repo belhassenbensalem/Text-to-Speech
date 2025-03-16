@@ -6,7 +6,7 @@ import os
 st.title("Text to Speech Converter")
 
 # Zone de texte pour l'entrée utilisateur
-text = st.text_input("Entrez votre texte ici", "Bonjour Monsieur melek")
+text = st.text_input("Entrez votre texte ici")
 
 # Bouton pour lancer la conversion
 if st.button("Convertir en audio"):
